@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+<head>
+<link rel="stylesheet" href="style.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+</head>
+<body>
+
+<h2>Responsive Form</h2>
+<p>Resize the browser window to see the effect. When the screen is less than 600px wide, make the two columns stack on top of each other instead of next to each other.</p>
+
+<div class="container">
+  <form id="myForm">
+  <div class="row">
+    <div class="col-25">
+      <label for="fname">Type of school</label>
+    </div>
+    <div class="col-75">
+<select id="type">
+      <option value="none">Select a type</option>
+      <option value="public">Public</option>
+      <option value="private">Private</option>
+  </select>
+    </div>
+  </div>
+  
+  <div class="row">
+    <div class="col-25">
+      <label for="fname">Type of school</label>
+    </div>
+    <div class="col-75">
+<select id="region">
+    <option value="item0">Select a region</option>
+    <option value="north">Northern Region</option>
+	<option value="west">Western Region</option>
+    <option value="east">Eastern Region</option>
+    <option value="central">Central Region</option>
+</select>
+    </div>
+  </div>
+  
+  <div class="row">
+    <div class="col-25">
+      <label for="fname">Type of school</label>
+    </div>
+    <div class="col-75">
+<select id="size">
+    <option value="">Select a district</option>
+</select>
+</div>
+</div>
+<br>
+ <div class="row">
+      <input type="submit" value="Submit" id="btn" onclick="myFunction();">
+    </div>
+</form>
+</div>
+<script src="script.js"></script>
+<script src="script1.js"></script>
+</body>
+</html>
